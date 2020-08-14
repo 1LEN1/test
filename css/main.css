@@ -1,0 +1,110 @@
+@font-face {
+	font-family: 'Virgo01';
+	src: url('../fonts/Virgo 01.eot');
+	src: local('☺'), url('../fonts/Virgo 01.woff') format('woff'), url('../fonts/Virgo 01.ttf') format('truetype'), url('../fonts/Virgo 01.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SegoeWP';
+	src: url('../fonts/ofont.ru_Segoe WP Light.eot');
+	src: local('☺'), url('../fonts/ofont.ru_Segoe WP Light.woff') format('woff'), url('../fonts/ofont.ru_Segoe WP Light.ttf') format('truetype'), url('../fonts/ofont.ru_Segoe WP Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SegoeWP';
+	src: url('../fonts/ofont.ru_Segoe WPN.eot');
+	src: local('☺'), url('../fonts/ofont.ru_Segoe WPN.woff') format('woff'), url('../fonts/ofont.ru_Segoe WPN.ttf') format('truetype'), url('../fonts/ofont.ru_Segoe WPN.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+body{
+	background: url('../img/BG_image.jpg') no-repeat center/cover;
+}
+.container {
+	max-width: 634px;
+	margin: 0px auto;
+	padding: 203px 0px 0px 0px;
+}
+.eror {
+	font-family: Virgo01;
+	font-size: 144.5px;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+	margin: 0px 0px 29px 0px;
+}
+.massage {
+	display: inline-block;
+	height: 35px;
+	white-space: nowrap;
+	font-family: SegoeWP;
+	font-size: 30.5px;
+	line-height: 35px;
+	font-weight: 300;
+	color: #fff;
+	margin: 0px 0px 114px 0px;
+}
+.massage::before{
+	content: '';
+	display: inline-block;
+	background: url('../img/icons/eror_img.svg') no-repeat center;
+	width: 34px;
+	height: 34px;
+	margin: 0px 9px 0 0;
+	opacity: 0.3;
+}
+.desk {
+	padding: 18px 0px 0px 0px;
+	margin: 0px 0px 34px 0px;
+	max-width: 535px;
+	margin: 0px auto;
+	height: 143px;
+	background-color: rgba(255, 255, 255, 0.23);
+	border: 6px solid rgba(0,0,0,0.4);
+	border-radius: 8px;
+	position: relative;
+	color: #fff;
+}
+.submassge {
+	text-align: center;
+	margin: 0px 0px 14px 0px;
+	font-family: SegoeWP;
+	font-size: 22px;
+	font-weight: 300;
+}
+.submassge a{
+	color: #fff;
+	text-decoration: underline;
+	font-weight: 400;
+}
+.rad{
+	border-radius: 20px;
+}
+form {
+  position: relative;
+  width: 394px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 5px;
+}
+input {
+  border: none;
+  outline: none;
+  width: 394px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+.design {
+	margin: 38px 0px 0px 0px;
+	text-align: center;
+	opacity: 0.2;
+	font-family: SegoeWP;
+	font-size: 16.5px;
+	line-height: 22px;
+	font-weight: 300;
+	color: #ffffff;
+}
